@@ -44,6 +44,11 @@ header{
     border-radius: 10px;
     border: none;
 }
+.top-btn button:hover{
+    background-color:#211e75 ;
+    box-shadow: 5px 5px 5px #888888;
+    transition: 0.5s;
+}
 .banner-heading{  
     padding: 150px 0px;
     text-align: center;   
@@ -68,6 +73,11 @@ header{
     border: none;
     
 }
+.banner-heading button:hover{
+    background-color:#211e75 ;
+    box-shadow: 5px 5px 5px #888888;
+    transition: 0.5s;
+}
 /*action section*/
 
 .action{
@@ -77,9 +87,6 @@ header{
     justify-content: space-between; 
     padding-top: 65px;
     padding-bottom: 65px;
-    
-}
-.left-side{
     
 }
 .left-side h3{
@@ -104,6 +111,11 @@ header{
     padding: 10px 15px;
     border-radius: 10px;
     border: none;
+}
+.action-btn:hover{
+    background-color:#211e75 ;
+     box-shadow: 5px 5px 5px #888888;
+    transition: 0.5s;
 }
 .right-side img{
     border-radius: 20px;
@@ -132,9 +144,7 @@ header{
     margin-top: 40px;
    
 }
-.Centered title{
-
-}
+ 
 .Centered-title h1{
     font-size: 80px;
     font-weight: bold;
@@ -183,26 +193,14 @@ header{
     display: flex;
     padding: 24px 0px;
 }
-.star-icon img{}
-.user-id{}
-.user-id h4{
-    
-}
-.user-id p{}
-
+ 
 .side{
     display: flex;
-    gap: 10px;
-    
-    
+    gap: 10px;  
 }
-.left-side{}
+ 
 .left-side img{
     border-radius: 100%;
-}
-
-.right-side{
-     
 }
 .right-side h5{
     color: #B8B8BA;
@@ -244,6 +242,11 @@ header{
     padding: 10px 15px;
     border-radius: 10px;
     border: none;
+}
+.footer-btn:hover{
+    background-color:#211e75 ;
+    box-shadow: 5px 5px 5px #888888;
+    transition: 0.5s;
 }
 .footer-img img{
     border-radius: 48px;
@@ -297,10 +300,14 @@ header{
     font-weight: bold;
     color:#FFFFFF;
     background-color: #4E47FF;
-    padding: 10px 15px;
     border-radius: 10px;
     border: none;
-    padding: 32px;
+    padding: 30px;
+}
+.feed-btn:hover{
+    background-color:#211e75 ;
+      box-shadow: 5px 5px 5px #888888;
+    transition: 0.5s;
 }
 
 /*footer section*/
