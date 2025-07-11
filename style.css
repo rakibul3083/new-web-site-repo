@@ -117,7 +117,7 @@ header{
   margin: auto;
   background-color:#E5E7FF;
   border-radius: 24px;
-  padding: 50px 80px;
+  padding: 50px 0px;
   align-items: center;
 }
  
@@ -170,11 +170,11 @@ header{
 
 }
 .sub-section{
-    width: 366px;
-    height: 243px;
+    width: 350px;
+    height:auto;
     background-color: #E5E7FF;
     border-radius: 14px;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 65px;
    
 }
@@ -250,7 +250,7 @@ header{
      
 }
 
-/*sers’ Feedback Section */
+/*user revew Section */
 .information-input{
     display: flex;
     width: 1140px;
