@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.full-container{
+  
+}
 
-
+body{
+    background-color:#F5F8FF ;
+}
 
 .raleway{
   font-family: "Raleway", sans-serif;
@@ -19,14 +24,16 @@ header{
 }
 .top-btn{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 50px;
+    width: 1140px;
+    margin: 0 auto;
 }
 .top-btn h3{
     font-size: 34px;
     font-family: inter;
     color:#4E47FF;
-    font-weight:700;
+    font-weight:bold;
 }
 .top-btn button{
     font-size: 16px;
@@ -66,10 +73,9 @@ header{
 .action{
     display: flex;
     margin: auto;
-    width: 60%;
-    justify-content: space-around; 
-     
-    margin-top: 65px;
+    max-width: 1140px;
+    justify-content: space-between; 
+    padding-top: 65px;
     padding-bottom: 65px;
     
 }
@@ -107,13 +113,14 @@ header{
 
 .separet-section{
   justify-items: center; 
-  
+  max-width: 1140px;
+  margin: auto;
   background-color:#E5E7FF;
   border-radius: 24px;
   padding: 50px 80px;
-   width: 50%;
-   margin: auto;
+  align-items: center;
 }
+ 
 .separet-section h3{
     font-size: 38px;
     font-weight: bold;
@@ -141,16 +148,37 @@ header{
 /*user information */
 
 
-.full-id-section{}
+.full-id-section{
+    align-items: center;
+    justify-items: center;
+    line-height: 27px;
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .full-id-section h3{
     font-size: 42px;
     font-weight: bold;
     color: #252432;
-    justify-items: center;
+    padding:60px 0px;
+     
+     
+
 }
 .main-section{
-    display: flex;
+    display: flex; 
+    gap: 10px;
+
 }
+.sub-section{
+    width: 366px;
+    height: 243px;
+    background-color: #E5E7FF;
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 65px;
+   
+}
+
 .star-icon{
     display: flex;
     padding: 24px 0px;
@@ -183,7 +211,141 @@ header{
     color: #B7B8BA;
 }
 
+/*footer section*/
+.footer-section{
+    max-width: 1140px;
+     justify-items: center;
+     align-items: center;
+    background-color: #FFFFFF;
+    border-radius:14px;
+    padding:60px 0px;
+    margin: 0 auto;
+    
+}
+.footer-title{
+    padding: 20px 0px;
+    text-align: center;
+}
+.footer-title h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    padding: 15px;
+}
+.footer-title h5{
+    color:#B8B8BA ;
+    padding: 15px;
+}
+.footer-btn{
+      font-size: 16px;
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color: #4E47FF;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+.footer-img img{
+    border-radius: 48px;
+     
+}
 
+/*sers’ Feedback Section */
+.information-input{
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 65px;
+    
+}
+.left-title{
+  margin-left: 20%; 
+  margin-top: 10%;
+  
+}
+.left-title h2{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+    
+      
+}
+.right-inputs{}
+.right-inputs label{
+    font-size: 18px;
+    font-weight: 600;
+    
+    width: 497px;
+    color: #000000;
+}
+ .text-area, .right-inputs input{
+       border: none;
+       padding: 32px;
+       background-color: #fff;
+       color: #747270;
+       width: 497px;
+       cursor: pointer;
+       gap: 10px;
+       border-radius: 10px;
+       font-size: 20px;
 
+}
+.feed-btn{
+    width: 555px;
+    font-size: 16px;
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color: #4E47FF;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    padding: 32px;
+}
+
+/*footer section*/
+
+.footer-section-buttom{
+    margin-top: 80px;
+    width: 100%;
+    background-color: #fff;
+    background-size: cover;
+    justify-items: center;
+    height: 428px;
+    padding-top: 10%;
+    
+    
+}
+.footer-heading{
+    padding: 5px;
+}
+.footer-heading h1{
+    font-size: 100px;
+    font-weight: bold;
+    color:#4E47FF ;
+   text-align: center;
+}
+.footer-heading p{
+    color: #8987A1;
+    font-size: 14px;
+}
+
+.footer-nav-items{
+     
+}
+.footer-nav-items nav{}
+.footer-nav-items ul{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.footer-nav-items ul li{
+    list-style-type: none;
+}
+.footer-nav-items ul li a{
+    text-decoration: none;
+    color:#8987A1;
+
+}
 
  
